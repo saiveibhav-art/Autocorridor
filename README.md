@@ -111,7 +111,7 @@ Requirements: QGIS 3.34 (tested on Windows, standalone install). No extra Python
 
 ```python
 import os, sys
-os.chdir(r"C:\autocorridor"); sys.path.insert(0, r"C:\autocorridor")
+os.chdir(r"C:\autocorridor"); sys.path.insert(0, r"C:\autocorridor") #replace the path with your own folder
 sys.argv = ["run.py"]
 exec(open("run.py").read())                       # builds output/friction_roadpen.tif
 ```
