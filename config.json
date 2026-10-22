@@ -1,0 +1,23 @@
+{
+  "target_crs": "EPSG:32643",
+  "resolution_m": 30,
+  "inputs": {
+    "dem": "data/dem.tif",
+    "landcover": "data/landcover.tif",
+    "canopy": "data/canopy.tif",
+    "roads": "data/roads.gpkg",
+    "settlements": "data/settlements.gpkg"
+  },
+  "workdir": "output/work",
+  "output_friction": "output/friction_roadpen.tif",
+  "landcover_lookup": "lookup_landcover.csv",
+  "weights": {
+    "landcover": 0.606,
+    "canopy": 0.0,
+    "slope": 0.182,
+    "settlement_dist": 0.212
+  },
+  "road_penalty": 100,
+  "slope": { "flat_deg": 5, "max_deg": 30 },
+  "decay_m": { "settlement": 1500 }
+}

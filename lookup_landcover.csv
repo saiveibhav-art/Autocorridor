@@ -1,0 +1,9 @@
+class,name,resistance,paper_class,note
+10,Tree cover,1,Evergreen and deciduous forest,Puyravaud 2016 Table 1 original
+20,Shrubland,10,Sparse scrubs and grass,Puyravaud 2016 Table 1 original
+30,Grassland,10,Sparse scrubs and grass,Puyravaud 2016 Table 1 original
+40,Cropland,30,Non-irrigated fields (30) or irrigated and fields (50),my choice - WorldCover does not separate irrigated; test 10 to 50
+50,Built-up,20,Habitations/barren land,Puyravaud 2016 Table 1 original - rural villages; may understate dense urban
+60,Bare / sparse,20,Barren fields,Puyravaud 2016 Table 1 original
+80,Permanent water,50,Water bodies,Puyravaud 2016 Table 1 original (alt 1 uses 100)
+90,Herbaceous wetland,10,none,my assumption - grass-like; 0.06 percent of area
