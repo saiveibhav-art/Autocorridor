@@ -156,6 +156,6 @@ exec(open("consensus.py", encoding="utf-8").read())
 - © OpenStreetMap contributors (ODbL), roads obtained with QuickOSM.
 
 ## Author, licence and acknowledgements
-- Author: *(add your name)*
-- Licence: *(choose one, e.g. MIT, and add a LICENSE file)*
-- Developed with assistance from Claude (Anthropic) for code and analysis design; all data checks and decisions are the author's. *(Edit or remove as you see fit.)*
+- Author: Sai Veibhav
+- Licence: MIT
+- Developed with assistance from Claude (Anthropic) for code and analysis design; all data checks and decisions are the author's.
